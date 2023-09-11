@@ -1,0 +1,7 @@
+C:\Users\erick.vgusson\source\repos\Tipos de Laços\Exercicios-lacos-de-repeticao\Exercicios\Exercicios\bin\Debug\Exercicios.exe.config
+C:\Users\erick.vgusson\source\repos\Tipos de Laços\Exercicios-lacos-de-repeticao\Exercicios\Exercicios\bin\Debug\Exercicios.exe
+C:\Users\erick.vgusson\source\repos\Tipos de Laços\Exercicios-lacos-de-repeticao\Exercicios\Exercicios\bin\Debug\Exercicios.pdb
+C:\Users\erick.vgusson\source\repos\Tipos de Laços\Exercicios-lacos-de-repeticao\Exercicios\Exercicios\obj\Debug\Exercicios.csproj.AssemblyReference.cache
+C:\Users\erick.vgusson\source\repos\Tipos de Laços\Exercicios-lacos-de-repeticao\Exercicios\Exercicios\obj\Debug\Exercicios.csproj.CoreCompileInputs.cache
+C:\Users\erick.vgusson\source\repos\Tipos de Laços\Exercicios-lacos-de-repeticao\Exercicios\Exercicios\obj\Debug\Exercicios.exe
+C:\Users\erick.vgusson\source\repos\Tipos de Laços\Exercicios-lacos-de-repeticao\Exercicios\Exercicios\obj\Debug\Exercicios.pdb
