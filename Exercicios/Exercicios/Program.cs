@@ -67,7 +67,7 @@ namespace Exercicios
                     }
 
 
-                    Console.Write("\nEntre " + numeroInicio + " e " + numeroFim + " Há um total de ");
+                    Console.Write("\nEntre " + numeroInicio + " e " + numeroFim + " há um total de ");
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.Write(numerosPares);
                     Console.ResetColor();
@@ -167,7 +167,7 @@ namespace Exercicios
 
                     }
 
-                    Console.Write("\nEntre " + inicio + " e " + fim + " Há um total de ");
+                    Console.Write("\nEntre " + inicio + " e " + fim + " há um total de ");
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.Write(contaPrimo);
                     Console.ResetColor();
