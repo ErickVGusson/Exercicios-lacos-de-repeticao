@@ -66,7 +66,13 @@ namespace Exercicios
 
                     }
 
-                    Console.WriteLine("\n\nHá um total de " + numerosPares + " números pares");
+
+                    Console.Write("\nEntre " + numeroInicio + " e " + numeroFim + " Há um total de ");
+                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+                    Console.Write(numerosPares);
+                    Console.ResetColor();
+                    Console.WriteLine(" de números Pares!");
+
                     break;
 
                 case 2:
@@ -161,12 +167,12 @@ namespace Exercicios
 
                     }
 
-                    Console.Write("\nHá um total de ");
+                    Console.Write("\nEntre " + inicio + " e " + fim + " Há um total de ");
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.Write(contaPrimo);
                     Console.ResetColor();
                     Console.WriteLine(" de números primos");
-
+                    
                     break;
 
                 default:
