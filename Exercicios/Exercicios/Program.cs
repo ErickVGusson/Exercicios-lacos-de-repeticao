@@ -75,25 +75,26 @@ namespace Exercicios
                     Console.WriteLine(" ____ ____ ____ ____ ____ ____ ____ ____ ____ \r\n||F |||i |||b |||o |||n |||a |||c |||c |||i ||\r\n||__|||__|||__|||__|||__|||__|||__|||__|||__||\r\n|/__\\|/__\\|/__\\|/__\\|/__\\|/__\\|/__\\|/__\\|/__\\|\n\n");
                     Console.ResetColor();
 
-                    Console.Write("Bem vindos a sequência de Fibonacci, digite quantas vezes deseja que a operação seja concluida: ");
+                    Console.Write("Bem vindos a sequência de Fibonacci, digite a posição que deseja ver: ");
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
                     int quantidade = int.Parse(Console.ReadLine());
                     Console.ResetColor();
 
                     double numeroAtual = 1;
                     double numeroAnterior = 0;
-                    double fibonacci = 0;
+                    double temporario = 1;
 
-                    for (int i = 0; i <= quantidade; i++)
+                    for (int i = 1; i <= quantidade; i++)
                     {
 
-                        fibonacci = numeroAtual + numeroAnterior;
-                        Console.Write(numeroAnterior + " + " + numeroAtual + " = ");
+                        Console.Write("Posição " + i + "º: ");
                         Console.ForegroundColor = ConsoleColor.DarkGreen;
-                        Console.WriteLine(fibonacci);
+                        Console.WriteLine(numeroAtual);
                         Console.ResetColor();
+
+                        temporario = numeroAnterior;
                         numeroAnterior = numeroAtual;
-                        numeroAtual = fibonacci;
+                        numeroAtual = temporario + numeroAtual;
 
                     }
 
@@ -170,7 +171,7 @@ namespace Exercicios
 
                 default:
                     Console.ForegroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine("Número invalido");
+                    Console.WriteLine(" \n                    /´¯/) \r\n                   ,/¯  / \r\n                  /    / \r\n            /´¯`/'   '/´¯¯`·¸ \r\n         /'/    /    /    /¨  /¯\\ \r\n        ('(    ´    ´     ¯˜/'   ') \r\n         \\                 '     / \r\n          '\\'   \\           _.·´ \r\n            \\              ( \r\n              \\             \\");
                     break;
 
             }
